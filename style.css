@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #333; padding: 20px; }
+.quiz-container { background: #ffffff; width: 100%; max-width: 500px; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+.header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f0f0f0; padding-bottom: 15px; margin-bottom: 25px; }
+.header h2 { font-size: 1.2rem; color: #4a5568; }
+#progress { font-weight: 600; color: #667eea; background: #ebf4ff; padding: 5px 10px; border-radius: 8px; }
+h3 { font-weight: 600; margin-bottom: 20px; font-size: 1.1rem; line-height: 1.5; }
+.option { display: block; width: 100%; padding: 15px; margin-bottom: 12px; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 10px; cursor: pointer; transition: all 0.2s ease; text-align: left; font-size: 1rem; color: #4a5568; }
+.option:hover { background: #ebf4ff; border-color: #667eea; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.restart-btn { background: #667eea; color: white; border: none; padding: 15px 20px; border-radius: 10px; cursor: pointer; width: 100%; font-size: 1.1rem; font-weight: 600; transition: 0.3s; margin-top: 20px; }
+.restart-btn:hover { background: #764ba2; }
+.result-text { text-align: center; font-size: 1.3rem; margin-bottom: 10px; }
